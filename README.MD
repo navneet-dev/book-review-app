@@ -1,9 +1,3 @@
-This `README.md` is tailored for a **Book Review App** using **Laravel 12** and **MySQL**. It includes the necessary steps to switch the default database from SQLite (Laravel 12's default) to MySQL.
-
-You can copy and paste this directly into your project:
-
----
-
 # 📚 Book Review App
 
 A modern web application built with **Laravel 12** that allows users to explore books, read reviews, and share their own opinions. This project serves as a comprehensive example of a CRUD application with a relational database (MySQL).
