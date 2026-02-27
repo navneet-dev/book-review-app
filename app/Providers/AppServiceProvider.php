@@ -25,7 +25,7 @@ class AppServiceProvider extends ServiceProvider
         //
         // Define a limiter for 
         RateLimiter::for('reviews', function (Request $request) {
-            // Allows 5 requests per minute based on IP address
+            // Allows 2 requests per minute based on IP address
             return Limit::perHour(2)->by($request->ip())->response(function (Request $request, array $headers) {
                 return response('You can store only 2 review per hour!', 429);
             });
